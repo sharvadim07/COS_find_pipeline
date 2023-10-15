@@ -3,7 +3,7 @@ Pipeline of procedure of COS extraction from genome (contigs)
 
 ## Algorithm
 1. From each sequence, 50 nts are cut off from the beginning. and from the end of 50 n.a.;
-2. Blastom finds the location of these segments.
+2. Blast finds the location of these segments.
 blastn parameters:
 -evalue 1e-10
 -qcov_hsp_perc 50 (minimum percentage of alignment length from segment length).
